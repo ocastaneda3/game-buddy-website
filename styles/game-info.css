@@ -1,0 +1,98 @@
+#game-info {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h4, h3, h2, h5, p {
+    font-family: "Saira Semi Condensed", sans-serif;
+    text-shadow: none !important;
+}
+
+.game-content-columns > div:last-child {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: 48px;
+}
+
+.comment-column{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.game-title{
+    text-align: center;
+}
+
+.game__movie {
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+}
+
+.game-card-video {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.game-card-video__video {
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iconify{
+    height: 100%;
+    width: 12%;
+}
+
+.list-group {
+    margin: 10px 0px 0px 48px;
+    max-width: 100%;
+    display: grid !important;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto;
+}
+
+.list-group-item {
+    display: flex !important;
+    border-radius: 6px;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.carousel-inner {
+    margin: 10px 0px 0px 48px !important;
+    width: auto !important;
+}
+
+.col-md-6{
+    margin: 25px 0px 25px 0px;
+    border-radius: 6px;
+}
+
+.round-border{
+    border-radius: 6px;
+    width: 100% !important
+}

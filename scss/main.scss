@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+$will-it-work: 'Saira Semi Condensed', sans-serif;
+h4,h3,h2,h5,p,a{
+    font-family: $will-it-work;
+}
+$body-bg: #000;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+.btn-primary{
+  font-family: $will-it-work;
+  background-color: rgb(29, 29, 29);
+}
+.form-control{
+  background-color: #313437;
+}
+.box{
+  background-color: #313437;
+}
+.carousel-inner{
+  background-color: #000;
+}
+.footer-basic {
+    padding: 40px 0;
+    background-color: #000000;
+    color: rgb(173, 173, 173);
+  }
+  
+  .footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-basic li {
+    padding: 0 10px;
+  }
+  
+  .footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(173, 173, 173);
+    margin-bottom: 0;
+  }
+  .features-boxed {
+    color: #b6b6b6;
+    background-color: #000000;
+  }
+  
+  .features-boxed p {
+    color: #747474;
+  }
+  
+  .features-boxed h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+  }
+  
+  @media (max-width:767px) {
+    .features-boxed h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px;
+    }
+  }
+  
+  .features-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .features-boxed .intro p {
+    margin-bottom: 0;
+  }
+  
+  .features-boxed .features {
+    padding: 50px 0;
+  }
+  
+  .features-boxed .item {
+    text-align: center;
+  }
+  
+  .features-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(29, 29, 29);
+    margin-bottom: 30px;
+  }
+  
+  .features-boxed .item .icon {
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .features-boxed .item .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: rgb(197, 197, 197);
+  }
+  
+  .features-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .carousel-inner{
+    background-color: rgba(0, 0, 0, 0);;
+  }
+  .card{
+    overflow: visible;
+  }
+  .col-game{
+    position: relative;
+    width: 100%;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 6px;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .body-game-card{
+    text-align: center;
+  }
+  .card-header-game {
+    font-family: $will-it-work;
+    padding: 1rem;
+  }

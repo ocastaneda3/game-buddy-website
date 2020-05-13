@@ -1,0 +1,26 @@
+{
+  "name": "csuf-spring20-cpsc362-group-c-working",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocastaneda3/csuf-spring20-cpsc362-group-c.git"
+  },
+  "author": "dylanscarpelli <32057786+dylanscarpelli@users.noreply.github.com>",
+  "license": "MIT",
+  "description": "CPSC 362 - Group C\r Our project is a user review website that focuses on video games. It takes other review site ratings and brings them together for comparison while adding its own review on top of them. This may be expanded later to incorporate other topics and media.",
+  "bugs": {
+    "url": "https://github.com/ocastaneda3/csuf-spring20-cpsc362-group-c/issues"
+  },
+  "homepage": "https://github.com/ocastaneda3/csuf-spring20-cpsc362-group-c#readme",
+  "dependencies": {
+    "apicalypse": "^0.1.6",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+$will-it-work: 'Saira Semi Condensed', sans-serif;
+h4,h3,h2,h5,p{
+    font-family: $will-it-work;
+    text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+$body-bg: #000;
+@import "node_modules/bootstrap/scss/bootstrap";
+.transparent_blackness{
+    background-color: rgba($color: #000000, $alpha: 0.5)
+}
