@@ -15,7 +15,7 @@
   "homepage": "https://github.com/ocastaneda3/csuf-spring20-cpsc362-group-c#readme",
   "dependencies": {
     "apicalypse": "^0.1.6",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "unirest": "^0.6.0"
   },
